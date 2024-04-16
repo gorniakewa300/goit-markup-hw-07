@@ -1,4 +1,10 @@
-
+/**
+ * Minified by jsDelivr using clean-css v5.3.2.
+ * Original file: /npm/modern-normalize@2.0.0/modern-normalize.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+/*! modern-normalize v2.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 *,
 ::after,
 ::before {
@@ -68,7 +74,12 @@ button,
 select {
   text-transform: none;
 }
-
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
 ::-moz-focus-inner {
   border-style: none;
   padding: 0;
@@ -90,6 +101,7 @@ progress {
   height: auto;
 }
 [type="search"] {
+  -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 ::-webkit-search-decoration {
